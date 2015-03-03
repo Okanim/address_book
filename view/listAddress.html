@@ -1,0 +1,34 @@
+
+<table class="coord">
+    <thead>
+    <tr>
+        <th>Nom</th>
+        <th>Prénom</th>
+        <th>Téléphone</th>
+        <th>rue</th>
+        <th>Code Postal</th>
+        <th>Ville</th>
+        <th>Details</th>
+        <th>Edition</th>
+        <th>Supprimer</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr ng-repeat="coord in coords | filter:search">
+
+        <td>{{coord.lastname}}</td>
+        <td>{{coord.firstname}}</td>
+        <td>{{coord.phone}}</td>
+        <td>{{coord.address}}</td>
+        <td>{{coord.code}}</td>
+        <td>{{coord.city}}</td>
+        <td><a href="" ng-click="viewCoord(coord.id)">Details</a> </td>
+        <td><a href="" ng-click="viewEdit(coord.id)">Edition</a></td>
+        <td><a href="" ng-click="deleteData(coord.id)">Suppression</a></td>
+
+    </tr>
+
+    </tbody>
+</table>
+

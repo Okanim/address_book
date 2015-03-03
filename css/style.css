@@ -1,0 +1,30 @@
+.right.menu{
+    margin-right: 10px;
+}
+
+.right.menu li:last-child{
+    padding-left: 5px;
+}
+
+.title-area h1{
+    padding-left:10px;
+    color:#FFFFFF;
+}
+
+.coord{
+    width:100%;
+}
+
+.viewCoord li{
+    list-style : none;
+}
+
+.zoom{
+    background-color: rgba(189, 195, 199,1.0);
+    min-height: 100%;
+}
+
+.box{
+    margin:0;
+    text-align:center;
+}
