@@ -1,5 +1,6 @@
 <?php
 
+//Recupère les données envoyé par Post par AngularJs
 $data= file_get_contents("php://input");
 require('../models/database.php');
 require('../models/Adresse.php');

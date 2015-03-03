@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Class Produits
- * Classe qui gère les données liées aux produits
+ * Class Adresse
+ * Classe qui gère les données liées aux adresses
  */
 class Adresse {
     public $id, $lastName, $firstName, $city, $phone, $code, $address;

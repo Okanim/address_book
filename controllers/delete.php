@@ -5,6 +5,7 @@
 	$database->connect();
 	$address = new Adresse($database);
 	
+	//Recupère les données envoyé par Post par AngularJs
 	$data= file_get_contents("php://input");
 
 	if(!empty($data)){
